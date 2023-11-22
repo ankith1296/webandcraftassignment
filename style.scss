@@ -1,0 +1,157 @@
+body {
+  font-family: "Sora", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+$navbarFontSize: 1rem;
+
+nav {
+  margin: 0 16rem;
+  display: flex;
+  // background-color: yellowgreen;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.headerLogo {
+}
+
+.navbar-buttons {
+  text-decoration: none;
+  font-size: $navbarFontSize;
+  color: #1e1e1e;
+}
+
+.options {
+  display: flex;
+  gap: 2.8rem;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.search-icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+select {
+  border: 0;
+  font-size: $navbarFontSize;
+}
+
+select::after {
+  font-size: 16px;
+  color: #ff6347; /* Change arrow color to red */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.pay-online-button {
+  font-size: $navbarFontSize;
+  font-weight: bold;
+  height: 3rem;
+  width: 12rem;
+  color: #fff;
+  background-color: #5bb700;
+  border: none;
+  border-radius: 8px;
+}
+
+.section-3 {
+  margin: 0 16rem;
+  text-align: center;
+}
+.section-3-heading {
+  font-size: 3rem;
+  color: #1e1e1e;
+  text-transform: uppercase;
+}
+
+.section-3-part-2 {
+  width: 74.5rem;
+}
+
+.section-3-description {
+  font-size: 2rem;
+  font-family: "Marcellus", serif;
+  margin: 1rem 11rem;
+  // text-align: center;
+}
+
+.section-5 {
+  margin: 0 16rem;
+  background-color: #5bb700;
+  height: 24.5rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hands-on-support {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+//FOOTER STYLE
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20rem;
+
+  background-color: #0a275b;
+}
+
+.footer-content {
+  display: flex;
+  // background-color: #ff6347;
+  margin: 0 16rem;
+  align-items: center;
+}
+
+.footer-logo-section {
+  flex: 2;
+}
+
+.footer-contact {
+  display: flex;
+  flex: 1;
+  font-size: 1.125rem;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin: 0 16rem;
+  display: flex;
+  justify-content: space-between;
+  color: #8d8d8d;
+  // background-color: #ff6347;
+}
